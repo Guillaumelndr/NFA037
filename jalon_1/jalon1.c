@@ -1,9 +1,12 @@
-/*
-* @Author: GuillaumeLandre
-* @Date:   2018-10-25 10:38:45
-* @Last Modified by:   GuillaumeLandre
-* @Last Modified time: 2018-10-25 10:38:45
-*/
+/**
+ * @Author: GuillaumeLandre
+ * @Date:   2018-10-25T10:37:51+01:00
+ * @Last modified by:   GuillaumeLandre
+ * @Last modified time: 2018-10-25T13:31:42+01:00
+ */
+
+
+
 #include <stdio.h>
 
  int main(void)

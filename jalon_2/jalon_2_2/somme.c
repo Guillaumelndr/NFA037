@@ -1,8 +1,8 @@
 /**
  * @Author: GuillaumeLandre
- * @Date:   2018-10-25T10:55:48+01:00
+ * @Date:   2018-10-25T12:54:59+01:00
  * @Last modified by:   GuillaumeLandre
- * @Last modified time: 2018-10-25T13:31:06+01:00
+ * @Last modified time: 2018-10-25T13:31:47+01:00
  */
 
 
@@ -19,5 +19,6 @@
  	scanf("%[^\n]", str);
  	str[29] = '\0';
  	printf("%d %d\n", str[0], str[strlen(str) - 1]);
+
  	return 0;
  }
