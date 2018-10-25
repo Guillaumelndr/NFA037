@@ -2,13 +2,12 @@
  * @Author: GuillaumeLandre
  * @Date:   2018-10-25T12:54:59+01:00
  * @Last modified by:   GuillaumeLandre
- * @Last modified time: 2018-10-25T15:33:43+01:00
+ * @Last modified time: 2018-10-25T16:01:28+01:00
  */
 
 
 
 #include <stdio.h>
-#include <string.h>
 
 int main(void)
 {
