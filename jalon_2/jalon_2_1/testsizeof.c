@@ -5,15 +5,17 @@
 * @Last Modified time: 2018-10-25 10:38:45
 */
 #include <stdio.h>
+#include <string.h>
 
  int main(void)
  {
  	int var = 10;
- 	char str[29];
+ 	char str[30];
 
- 	printf("taille de var %lu\n", sizeof(var));
- 	scanf("%s", str);
- 	printf("%s\n", str);
+ 	printf("taille d'un int %lu\n", sizeof(var));
+ 	scanf("%[^\n]", str);
+ 	str[29] = '\0';
+ 	printf("%d %d\n", str[0], str[strlen(str) - 1]);
 
  	return 0;
  }
